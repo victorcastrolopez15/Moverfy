@@ -1,0 +1,590 @@
+@font-face {
+    font-family: PT_Sans_bold;
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: PT_Sans_regular;
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PT_Sans_italic;
+    src: url(../fonts/PT_Sans/PTSans-Italic.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: PT_Sans_bold;
+}
+
+.tipografia_bold{
+    font-family: PT_Sans_bold;
+}
+
+.tipografia_regular{
+    font-family: PT_Sans_regular;
+}
+
+.tipografia_italic{
+    font-family: PT_Sans_italic;
+}
+
+body{
+    background-color: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.separacion{
+    letter-spacing: 3px;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+/* TAMAÑOS DE LETRA */
+.font-size-15px{
+    font-size: 15px;
+}
+
+.font-size-16px{
+    font-size: 16px;
+}
+
+.font-size-17px{
+    font-size: 17px;
+}
+
+.font-size-20px{
+    font-size: 20px;
+}
+
+.font-size-25px{
+    font-size: 25px;
+}
+
+.font-size-32px{
+    font-size: 32px;
+}
+
+
+/* COLORES DE TIPOGRAFÍA Y FONDOS */
+.tipografia_amarilla{
+    color: #D1B900;
+}
+
+.fondo_azul_oscuro{
+    background-color: #0E093B;
+}
+
+.tipografia_azul_oscuro{
+    color: #0E093B;
+}
+
+.tipografia_azul_oscuro_opaca{
+    color: rgba(14, 9, 59, 0.5);
+}
+
+.tipografia_negra{
+    color: #332926;
+}
+
+.tipografia_blanca{
+    color: #FFFFFF;
+}
+
+.tipografia_blanca_opaca{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fondo_blanco{
+    background-color: #FFFFFF;
+}
+
+.tipografia_naranja{
+    color: #E44F3A;
+}
+
+.fondo_naranja_claro{
+    background-color: rgba(255, 49, 42, 0.10);
+}
+
+.tipografia_roja{
+    color: #D7312A;
+}
+
+.fondo_rojo{
+    background-color: #D7312A;
+}
+
+.fondo_gris_claro{
+    background-color: #F6F6F6;
+}
+
+
+/* HOME */
+.tamanio_logo{
+    width: 25%;
+}
+
+.enlace_sin_decoracion{
+    text-decoration: none;
+}
+
+.boton_contacto{
+    background-color: #0E093B;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 10px; 
+    font-size: 25px;
+}
+
+.mudan{
+    background-image: url('../assets/Mudan.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto_responsive{
+    display: none;
+}
+
+.top0{
+   margin-top: -1rem;
+}
+
+.height_141{
+    height: 141px;
+}
+
+.servicios{
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+}
+
+.organizar_servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding_left75rem{
+    padding-left: .75rem;
+}
+
+.margin_right5rem{
+    margin-right: .5rem;
+}
+
+.fondo_cards{
+    background-image: url(../assets/fondo_card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.scroll{
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.swipe-scroll{
+    display: inline-flex;
+    justify-content: start;
+}
+
+.bordes_menos_redondeados{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.16);
+}
+
+.fondo_carrousel{
+    box-sizing: border-box;
+}
+
+.fondo_carrousel::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 65%;
+    height: 350px;
+    background: linear-gradient(to bottom right, #D7312A, #6C1915);
+    z-index: -20;
+    margin-top: -1%;
+    margin-left: 35%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.carrousel{
+    position: absolute;
+    z-index: 1;
+}
+
+.margin_top20{
+    margin-top: 20%;
+}
+
+.tamanio_cards_carrousel{
+    width: 480px;
+}
+
+.fondo_bajo_carrousel{
+    background-image: url('../assets/img5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 827px;
+}
+
+.div_asesorar{
+    width: 100%;
+    height: 250px;
+    margin-top: 25%;
+}
+
+.height_50{
+    height: 50px;
+}
+
+.z_index10{
+    z-index: 10;
+}
+
+.texto_centrar{
+    text-align: center;
+}
+
+.margen_izq_drc_servicios{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+
+/* POP UP */
+.overlay{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: 500;
+}
+
+.overlay.active{
+    visibility: visible;
+}
+
+.popup{
+    background: #4D8BFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 20px;
+    width: 478px;
+}
+
+.enlace_popup{
+    color: #ffffff;
+}
+
+#gform_confirmation_message_1{
+    color: #ffffff  ;
+}
+
+.popup .btn-cerrar-popup {
+    line-height: 16px;
+    display: block;
+    color: #BBBBBB;
+    transition: .3s ease all;
+    width: 3%;
+    float: right;
+}
+
+.popup .btn-cerrar-popup:hover{
+    color: #000000;
+}
+
+.popup h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#gform_submit_button_1{
+    height: 40px;
+    background-color: #FF9D00;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+}
+
+
+/* FOOTER */
+.fondo_footer{
+    background-image: url('../assets/img8.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 890px;
+    z-index: 20;
+}
+
+.boton_contacto_rojo{
+    background-color: #D7312A;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 10px; 
+    font-size: 25px;
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+}
+
+.margin_top15{
+    margin-top: 13%;
+}
+
+.div_asesorar_footer{
+    width: 100%;
+    height: 250px;
+    margin-top: 25%;
+    padding-top: 5%;
+}
+
+#main-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+#menu-item-33{
+    width: 12%;
+}
+
+#menu-item-34{
+    width: 13%;
+}
+
+#menu-item-32{
+    width: 10%;
+}
+
+
+/* IPAD */
+@media (max-width: 992px){
+    .header_responsive{
+        display: none;
+    }
+
+    .centrar_logo{
+        justify-content: center;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+    .texto_centrar_responsive{
+        text-align: center;
+    }
+
+    .contacto_responsive{
+        display: block;
+    }
+
+    .boton_contacto_responsive1{
+        background-color: rgba(228, 228, 228, .25);
+        color: #FFFFFF;
+        font-size: 20px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+        padding: .25rem;
+        width: 98%;
+    }
+
+    .boton_contacto_responsive2{
+        background-color: rgba(228, 228, 228, .5);
+        color: #FFFFFF;
+        font-size: 20px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+        padding: .25rem;
+        width: 98%;
+        float: right;
+    }
+
+    .fondo_carrousel::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 45%;
+        height: 350px;
+        background: linear-gradient(to bottom right, #D7312A, #6C1915);
+        z-index: -20;
+        margin-top: -1%;
+        margin-left: 55%;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .tamanio_cards_carrousel{
+        width: 290px;
+    }
+
+    .fondo_bajo_carrousel{
+        background-image: url('../assets/img9.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .div_asesorar {
+        width: 100%;
+        height: 250px;
+        margin-top: 65%;
+        margin-left: 26%;
+    }
+
+    .fondo_footer {
+        background-image: url('../assets/img10.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        z-index: 20;      
+    }
+
+    .div_asesorar_footer {
+        width: 100%;
+        height: 250px;
+        margin-top: 25%;
+        padding-top: 15%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #menu-item-33{
+        width: 20%;
+        text-align: center;
+    }
+
+    #menu-item-34{
+        width: 22%;
+    }
+}
+
+
+/* IPHONE */
+@media (max-width: 450px){
+    body{
+        background-color: #ffffff;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tamanio_logo{
+        width: 50%;
+    }
+
+    .margen_responsive{
+        margin-top: 2rem;
+    }
+
+    .texto_centrar{
+        text-align: left;
+    }
+
+    .organizar_servicios{
+        display: block;
+    }
+
+    .servicios{
+        margin-bottom: .5rem;
+        width: 100%;
+        height: 97px;
+        display: flex;
+        align-items: center;
+    }
+
+    .margen_izq_drc_servicios{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .div_asesorar {
+        width: 100%;
+        height: 250px;
+        margin-top: 120%;
+        margin-left: 6%;
+    }
+
+    .padding_left20{
+        padding-left: 20%;
+    }
+
+    #main-menu {
+        flex-direction: column;
+    }
+    
+    #menu-item-33{
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-item-34{
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-item-32{
+        width: 100%;
+        text-align: center;
+    }
+
+    .div_asesorar_footer {
+        margin-top: 95%;
+        text-align: center;
+    }
+
+    .margin_top15{
+        margin-top: 13%;
+        height: 165px;
+    }
+    
+    .fondo_footer {
+      height: 710px;
+    }
+}
